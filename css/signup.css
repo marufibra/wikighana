@@ -1,0 +1,290 @@
+@media only screen and (max-width: 768px) {
+  aside{
+  float:left;
+  width:30%;
+  
+  }
+  aside #headlines{margin-top:5%;
+      text-align: center;
+      margin-bottom:8px;
+      font-family: sans-serif;
+      font-weight:bold;
+      
+  }
+  
+  aside ul{
+  padding-left:0px;
+  margin:0;
+  list-style-type:none
+  }
+  aside li{
+  padding:8px 0 8px 5px;
+  border-bottom: #E8E8E8 solid 2px;
+  }
+  
+  aside a{text-decoration: none;
+      color:#222222;
+      font-family:sans-serif;
+      font-size: 14px;
+      color:blue;
+  }
+  aside a:hover{
+      text-decoration: underline;
+  }
+  aside #age_of_time{
+      color:#838383;
+      font-family:sans-serif;
+      font-size: 12px;
+      margin-top:6px;
+  }
+  
+ 
+ .signup-form{
+  border-top:5px solid #ccc;
+  margin-top:10px;
+  padding-top:10px;
+ }
+  .site_nav a{
+      text-decoration: none;
+      color:#282A35;
+      font-size: 15px;;
+  }
+  .latest_stories{
+      font-family: sans-serif;
+      font-size: larger;
+      text-align: center;
+      background-color:#DCDCDC;
+     
+      padding:6px 0;
+      border-bottom: #282A35 solid 3px;;
+  }
+  
+  .search-results ul{
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  .search-results li{
+      list-style: none;
+      margin-bottom:3px;
+  }
+  
+  
+  
+  
+
+  .login ul{
+    padding-left: 10px;
+  }
+  .login{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .login form {border: 3px solid #f1f1f1;}
+  
+  .login input[type=text], .login input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    float:left;
+  }
+  
+  .login button:hover {
+    opacity: 0.8;
+  }
+  
+  .login .cancelbtn {
+    padding:14px 0;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  .login img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  .login .container {
+    padding: 16px;
+  }
+  
+  .login span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  .cancelbtn a {
+    
+    color:white;
+    text-decoration: none;
+    padding: 12px 45%;
+  
+  }
+  
+  }
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+aside{
+float:left;
+width:30%;
+
+}
+aside #headlines{margin-top:5%;
+    text-align: center;
+    margin-bottom:8px;
+    font-family: sans-serif;
+    font-weight:bold;
+    
+}
+
+aside ul{
+padding-left:0px;
+margin:0;
+list-style-type:none
+}
+aside li{
+padding:8px 0 8px 5px;
+border-bottom: #E8E8E8 solid 2px;
+}
+
+aside a{text-decoration: none;
+    color:#222222;
+    font-family:sans-serif;
+    font-size: 14px;
+    color:blue;
+}
+aside a:hover{
+    text-decoration: underline;
+}
+aside #age_of_time{
+    color:#838383;
+    font-family:sans-serif;
+    font-size: 12px;
+    margin-top:6px;
+}
+
+.signup-form{
+  border-top:5px solid #ccc;
+  margin-top:0;
+  padding-top:10px;
+}
+
+
+.site_nav {
+    
+    position:absolute;
+    top:89px;
+    left:5.5%;
+   
+}
+.site_nav a:hover{
+    color:blue;
+}
+.site_nav a{
+    text-decoration: none;
+    color:#282A35;
+    font-size: 15px;;
+}
+.latest_stories{
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+    background-color:#DCDCDC;
+   
+    padding:6px 0;
+    border-bottom: #282A35 solid 3px;;
+}
+
+.search-results ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+.search-results li{
+    list-style: none;
+    margin-bottom:3px;
+}
+
+
+
+
+.login{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login form {border: 3px solid #f1f1f1;}
+
+.login input[type=text], .login input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  float:left;
+}
+
+.login button:hover {
+  opacity: 0.8;
+}
+
+.login .cancelbtn {
+  padding:14px 0;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.login img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.login .container {
+  padding: 16px;
+}
+
+.login span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.cancelbtn a {
+  
+  color:white;
+  text-decoration: none;
+  padding: 12px 45%;
+
+}
+
+}

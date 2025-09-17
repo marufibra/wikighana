@@ -1,0 +1,265 @@
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  /* @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  } */
+  
+  
+  
+
+
+
+
+
+
+
+
+.wrap{
+
+width:90%;
+margin:auto;
+
+}
+
+.content{
+background:white;
+float:left;
+width:65%;
+overflow: hidden;
+font-family: sans-serif;
+min-height: 600px;
+margin-right:5%;
+min-height: 2000px;
+
+}
+
+aside{
+float:left;
+width:30%;
+
+}
+aside #headlines{margin-top:5%;
+    text-align: center;
+    margin-bottom:8px;
+    font-family: sans-serif;
+    font-weight:bold;
+    
+}
+
+aside ul{
+padding-left:0px;
+margin:0;
+list-style-type:none
+}
+aside li{
+padding:8px 0 8px 5px;
+border-bottom: #E8E8E8 solid 2px;
+}
+
+aside a{text-decoration: none;
+    color:#222222;
+    font-family:sans-serif;
+    font-size: 14px;
+    color:blue;
+}
+aside a:hover{
+    text-decoration: underline;
+}
+aside #age_of_time{
+    color:#838383;
+    font-family:sans-serif;
+    font-size: 12px;
+    margin-top:6px;
+}
+
+.site_nav {
+    
+    position:absolute;
+    top:89px;
+    left:5.5%;
+    color:red;
+}
+.site_nav a:hover{
+    color:blue;
+}
+.site_nav a{
+    text-decoration: none;
+    color:#282A35;
+    font-size: 15px;;
+}
+.latest_stories{
+    font-family: sans-serif;
+    font-size: larger;
+    text-align: center;
+    background-color:#DCDCDC;
+   
+    padding:6px 0;
+    border-bottom: #282A35 solid 3px;;
+}
+
+.search-results ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+.search-results li{
+    list-style: none;
+    margin-bottom:3px;
+}
+.content{
+    border-top:5px #ccc solid;
+    padding-top:20px;
+}
+
+
+.notification a{
+  color:blue;
+  text-decoration:none;
+}
+
+.notification li{
+  list-style: none;
+  padding:10px 0;
+  border-bottom:3px solid #ccc;
+}
+
+.notification ul{
+  padding-left:0px;
+}
+
+.notification a:hover{
+  text-decoration: underline;
+}
+
+
+.float_right{
+   
+    font-size: 12px;
+    color:#838383;
+    width:250px;
+    position:absolute;
+      right:0;
+      top:20px;
+    
+  }
+  .notif_container{
+      border-top:1px solid green;
+      padding:5px;
+      position:relative;
+      height:40px;
+      
+      
+  }
+.msg_a{
+  
+    display:block;
+   height:30px;
+}
+.msg_a:hover{
+    cursor:pointer;
+    text-decoration:underline !important;
+}
+@media only screen and (max-width: 768px) {
+
+    .msg_div{
+        width:270px !important;
+    }
+    .float_right{
+          right:0;
+          top:60px;
+      }
+    .notif_container{
+        height:70px;
+    }
+
+    .msg_a{
+        
+        display:block;
+       height:40px;;
+       
+    }
+    .site_nav{
+        display:none;
+    }
+}

@@ -1,0 +1,174 @@
+
+.wrap{
+/* min-width:400px; */
+width:90%;
+margin:auto;
+
+/* overflow:hidden;  */
+}
+.content{
+background:white;
+float:left;
+width:61.50%;
+overflow: hidden;
+font-family: sans-serif;
+min-height: 600px;
+}
+
+aside{
+/* background:#E8E8E8; */
+float:left;
+width:33.50%;
+
+}
+aside #headlines{margin-top:5%;
+    text-align: center;
+    margin-bottom:8px;
+    font-family: sans-serif;
+    font-weight:bold;
+    
+}
+
+aside ul{
+padding-left:20px;
+margin:0;
+}
+aside li{
+padding:8px 0;border-bottom: #E8E8E8 solid 2px;
+}
+aside ul{
+    list-style-type:none
+    }
+aside a{text-decoration: none;color:#222222;font-family:sans-serif;font-size: 14px;}
+aside a:hover{color:green;}
+aside #age_of_time{color:#b5b5b5b5;font-family:sans-serif;font-size: 11px;margin-top:6px;}
+
+
+.color_red{color:red}
+.color_green{color:green}
+
+.img_display img{
+    width:120px;
+    height:100px
+  
+
+}
+
+
+
+.img_display{
+    width:120px;
+    float:left;
+    margin:10px 10px 10px 0;
+    border:grey solid 2px;
+    word-wrap: break-word;
+    padding:2px;
+    position:relative;
+    height:150px;
+    overflow: auto;
+}
+#right_click,.delete_yes{
+    text-align: center;
+    margin-bottom:0;
+    padding:10px 0;
+    width:360px;
+    color:#ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #282A35;
+}
+#right_click{
+    width:100%;
+    background-color: #DCDCDC;
+}
+
+#delete_red_cross img{
+    width:28px;
+    height:28px;
+}
+#delete_red_cross{
+    position:absolute;
+    bottom:50px;
+    border:1px solid black;
+    right:0;
+    opacity:0.7;}
+#delete_red_cross:hover{opacity:1;}
+
+.wrapper-confirmatin{
+    background-color: #AFE1AF;
+    border: 2px solid #4CAF50;
+    width:500px;
+    border-radius: 10px;
+  
+}
+.title-confirmation{
+    text-align: center;
+    padding:5px 0;
+    color:white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.body-confirmation{
+    margin:5px 0 20px 5px;
+    color:red;
+}
+.YesNo{
+    position:relative;
+    margin-bottom:20px;
+   
+}
+.YesNo a:hover{
+    opacity: 0.7;
+}
+
+.Yes a,.No a{
+    background-color: green;
+    width:50px;
+    padding:6px 15px;text-align: center;
+    border-radius:5px;
+}
+.Yes{
+    margin-left:300px;
+}
+.No{
+    position:absolute;
+    top:0px;right:15px;
+}
+.YesNo a{
+    text-decoration: none;
+    color:white;
+}
+
+.a_img_display{
+    opacity:0;
+}
+
+form input[type=submit],form input[type=file]{
+    color:white;
+    background-color: green;
+    padding:5px 8px;
+    border-radius:10px;
+    border:0;
+    cursor: pointer;
+}
+
+.delete_yes,.alert_design{
+    text-align: center;
+    margin-bottom:0;
+    padding:10px 0;
+    width:360px;
+    color:#fff4a3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #282A35;
+}
+
+.img_id{
+    position:absolute;
+    bottom:52px;
+    left:0;
+    font-weight: bold;
+    font-size: 20px;
+    background:white;
+    padding:2px;
+    border:1px solid black;
+}
